@@ -1,0 +1,81 @@
+body {
+    background-color: black;
+    overflow: hidden;
+    white-space: nowrap;
+    margin: 0;
+    padding: 0;
+    font-family: 'Calibri';
+}
+
+.main {
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.noselect {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.map {
+    position: relative;
+    display: inline-block;
+    margin-top: 8px;
+    margin-left: 8px;
+    background-size: cover;
+}
+
+#light-map {
+    background-image:  url(light_world.png);
+}
+
+#dark-map {
+    background-image:  url(dark_world.png);
+}
+
+#info-box {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #222222;
+    color: white;
+    border: 2px solid white;
+    box-sizing: border-box;
+    padding: 8px;
+    overflow-y: auto;
+}
+
+
+.info-box-title {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: underline;
+    margin-bottom: 8px;
+}
+
+.screenshot {
+    width: 512px;
+    image-rendering: crisp-edges;
+}
+
+.point {
+    position: absolute;
+    transform: translate(-7px, -7px);
+    background-color: #ff0000;
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+
+.point:hover {
+    z-index: 2;
+    border: 3px solid black;
+}
