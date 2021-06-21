@@ -41,7 +41,7 @@ POINTS = [
         text: `
             =new_dma_1
             - go here or 1-2 pixels lower
-            - buffer or spinspeed into the corner until jump
+            - buffer or superspeed into the corner until jump
             - press down to transition
 
             =new_dma_2
@@ -101,12 +101,12 @@ POINTS = [
         pos: [5694, 2677],
         text: `
             =graveyard_ledge_clip
-            With spinspeed:
+            With superspeed:
             - clip left through the corner
             - hold up-left while falling
             - hold up to transition
 
-            No spinspeed:
+            No superspeed:
             - buffer into the corner 3 times
             - dash turn left
             - hold up-right while falling
@@ -142,11 +142,11 @@ POINTS = [
     },
 
     {
-        title: "Hera Wrap (Spinspeed)",
+        title: "Hera Wrap (superspeed)",
         world: "light",
         pos: [5452, 2452],
         text: `
-            =hera_spinspeed
+            =hera_superspeed
             - clip through right corner
             - tap up
             - down 1 tile, right 2 tiles, then up
@@ -514,6 +514,46 @@ POINTS = [
     },
 
     {
+        title: "Desert Return (West)",
+        world: "light",
+        pos: [419, 7806],
+        text: `
+            =desert_return_west
+            - teleport up
+        `,
+    },
+
+    {
+        title: "Desert Return (East)",
+        world: "light",
+        pos: [1210, 7806],
+        text: `
+            =desert_return_east
+            - teleport up
+        `,
+    },
+
+    {
+        title: "Gloveless Desert Back",
+        world: "light",
+        pos: [742, 7645],
+        text: `
+            =gloveless_desert
+            - on either side, buffer into the slope until you jump
+        `,
+    },
+
+    {
+        title: "Checkerboard Cave Return",
+        world: "light",
+        pos: [1742, 7919],
+        text: `
+            =checker_return
+            - teleport down
+        `,
+    },
+
+    {
         title: "South of Grove to Checkerboard Cave",
         world: "light",
         pos: [2726, 7919],
@@ -537,11 +577,175 @@ POINTS = [
     {
         title: "Cave 45 to Checkerboard",
         world: "light",
-        pos: [2597, 8532],
+        pos: [2532, 8435],
         text: `
             =cave_45_to_checker
             - buffer into the bump until jump
             - transition left
+        `,
+    },
+
+    {
+        title: "Cave 45 to Bombos Monument",
+        world: "light",
+        pos: [2710, 8613],
+        text: `
+            =cave_45_to_bombos
+            - get on the cliff and transition down here
+            - hold up to jump down
+        `,
+    },
+
+    {
+        title: "Desert to Cave 45",
+        world: "light",
+        pos: [2363, 9000],
+        text: `
+            =desert_to_cave45
+            - superspeed clip or buffer into the slope to jump
+        `,
+    },
+
+    {
+        title: "Bombos Monument Teleport (West)",
+        world: "light",
+        pos: [2097, 9113],
+        text: `
+            =bombos_teleport_west
+            - teleport down and hold down-right to jump
+        `,
+    },
+
+    {
+        title: "Bombos Monument Teleport (East)",
+        world: "light",
+        pos: [2726, 9161],
+        text: `
+            =bombos_teleport_east
+            - teleport down and hold down-left to jump
+        `,
+    },
+
+    {
+        title: "Mire Portal Teleport",
+        world: "light",
+        pos: [113, 9677],
+        text: `
+            =mire_portal_teleport
+            - teleport down
+        `,
+    },
+
+    {
+        title: "Desert to Zora",
+        world: "light",
+        pos: [2129, 9919],
+        text: `
+            =desert_to_zora_1
+            - teleport down to jump
+            - tap right
+
+            =desert_to_zora_2
+            - teleport down to jump
+            - tap left
+
+            =desert_to_zora_3
+            - transition down here
+        `,
+    },
+
+    {
+        title: "Portal Teleport (West)",
+        world: "light",
+        pos: [4258, 7371],
+        text: `
+            =portal_teleport_west
+            - teleport down
+        `,
+    },
+
+    {
+        title: "Portal Teleport (East)",
+        world: "light",
+        pos: [5452, 7371],
+        text: `
+            =portal_teleport_east
+            - teleport down
+        `,
+    },
+
+    {
+        title: "Swamp Cliff Shortcuts (LW)",
+        world: "light",
+        pos: [4274, 8113],
+        text: `
+            =swamp_cliff_lw_1
+            =swamp_cliff_lw_2
+            - superspeed clip or buffer into the corners
+        `,
+    },
+
+    {
+        title: "Lake Hylia Teleport",
+        world: "light",
+        pos: [6484, 7371],
+        text: `
+            =hylia_teleport_1
+            - teleport down and hold down-left to jump
+
+            =hylia_teleport_2
+            To reach the island:
+            - tap down here to autowalk
+
+            =hylia_teleport_3
+            To reach hobo:
+            - buffer 3 times into the corner, dash-turn left to bonk
+            - jump and fake flipper
+
+            =hylia_teleport_4
+            To swim to Zora:
+            - place bottom of link's shadow inside this rock
+            - transition right and dash right to jump
+            - hold right while falling to jump down
+            - hold up while falling to transition
+        `,
+    },
+
+    {
+        title: "Hobo Clip",
+        world: "light",
+        pos: [7145, 7145],
+        text: `
+            =hobo_clip
+            - superspeed clip or buffer right through the corner
+        `,
+    },
+
+    {
+        title: "Eastern Teleport",
+        world: "light",
+        pos: [9597, 6113],
+        text: `
+            =eastern_teleport_1
+            - teleport down and hold down-left to jump
+            - move up a bit and jump right twice to screen wrap
+
+            =eastern_teleport_2
+            - move to this horizontal position and walk up into Eastern
+        `,
+    },
+
+    {
+        title: "Eastern to Ice Rod Cave",
+        world: "light",
+        pos: [9339, 7306],
+        text: `
+            =eastern_to_icerod_1
+            - teleport down and hold down-right to jump
+            - tap up then left
+
+            =eastern_to_icerod_2
+            - teleport down to transition
         `,
     },
 
@@ -554,6 +758,31 @@ POINTS = [
             - teleport up
             - move left to edge
             - dash up
+        `,
+    },
+
+    {
+        title: "Bombless Ice Rod Cave",
+        world: "light",
+        pos: [8903, 7952],
+        text: `
+            =bombless_icerod
+            - upward teleport, but 1 pixel lower and 1 pixel to the right
+            - hold left then up
+        `,
+    },
+
+    {
+        title: "Ice Rod Cave to Eastern",
+        world: "light",
+        pos: [9790, 8290],
+        text: `
+            =icerod_to_eastern_1
+            - down teleport and hold down-right to jump
+            - screen transition right
+
+            =icerod_to_eastern_2
+            - dash up here
         `,
     },
 
@@ -594,6 +823,21 @@ POINTS = [
     },
 
     {
+        title: "Skydive DMD",
+        world: "dark",
+        pos: [3871, 2403],
+        text: `
+            =skydive_1
+            - superspeed clip or buffer left through the corner
+
+            =skydive_2
+            - get into this corner
+            - jump down twice
+            - transition left
+        `,
+    },
+
+    {
         title: "Dark DMD",
         world: "dark",
         pos: [4339, 2435],
@@ -602,6 +846,98 @@ POINTS = [
             - clip through left corner
             - dash-turn up and bonk
             - transition down
+        `,
+    },
+
+    {
+        title: "Mirror Wrap DMD",
+        world: "dark",
+        pos: [4613, 2226],
+        text: `
+            =mirror_wrap_dmd_1
+            - hera clip, but don't enter hera
+            - jump down and enter portal from the right
+
+            =mirror_wrap_dmd_2
+            - walk left to here
+            - mirror wrap
+            - wiggle up and down to fix camera
+        `,
+    },
+
+    {
+        title: "GT Clip",
+        world: "dark",
+        pos: [5694, 2355],
+        text: `
+            =gt_clip
+            - line up with the horizontal cliff
+            - buffer or hookspeed left into the wall
+            - buffer down-right to jump
+            - tap right, then hold up
+        `,
+    },
+
+    {
+        title: "Dark East DM Mirror Wrap",
+        world: "dark",
+        pos: [6274, 1968],
+        text: `
+            =east_dm_wrap_1
+            - mirror wrap
+            - transition right
+
+            =east_dm_wrap_2
+            - land here after auto-walking, but with broken camera
+        `,
+    },
+
+    {
+        title: "Hookshot Cave Mirror Wrap",
+        world: "dark",
+        pos: [6274, 2226],
+        text: `
+            =hookshot_cave_wrap
+            - line up here and mirror wrap
+            - transition right
+            - hold right to snap left
+            - jump down
+            - move up slightly and jump down
+            - walk left and up into the entrance
+        `,
+    },
+
+    {
+        title: "Dark DM Mirror Clip",
+        world: "dark",
+        pos: [6645, 1839],
+        text: `
+            =dm_mirror_clip_1
+            - stand against the wall and mirror
+
+            =dm_mirror_clip_2
+            - move 1 pixel right, and re-enter portal
+
+            =dm_mirror_clip_3
+            - mirror, align with the fence, and wait to stop flashing
+            - walk left into the portal without stopping
+            - hold right to jump
+
+            =dm_mirror_clip_4
+            To reach west dark world:
+            - transition down here
+
+            =dm_mirror_clip_5
+            To reach east dark world (requires moon pearl):
+            - transition down here
+            - jump left to reset camera
+            - jump right and fake flipper
+
+            =dm_mirror_clip_6
+            To reach east DM:
+            - mirror and line up here
+            - wait to warp back
+            - hold down to jump
         `,
     },
 
@@ -620,6 +956,18 @@ POINTS = [
     },
 
     {
+        title: "Dark Death Mountain Land Bridge Teleport",
+        world: "dark",
+        pos: [6016, 871],
+        text: `
+            =dark_dm_land_bridge_teleport
+            - teleport down
+            - tap down, tap left, half circle left, repeat until free
+            - jump right and transition
+        `,
+    },
+
+    {
         title: "Dark Death Mountain Land Bridge Return",
         world: "dark",
         pos: [7371, 710],
@@ -631,12 +979,137 @@ POINTS = [
     },
 
     {
+        title: "Turtle Rock Middle Clip",
+        world: "dark",
+        pos: [7774, 742],
+        text: `
+            =tr_middle
+            With superspeed:
+            - clip right through the corner
+
+            No superspeed:
+            - buffer right into the corner
+            - dash turn down
+        `,
+    },
+
+    {
+        title: "Laser Bridge Mirrorless Wrap",
+        world: "dark",
+        pos: [6323, 565],
+        text: `
+            =laser_bridge_mirrorless
+            - superspeed clip or buffer left through the corner
+            - tap down
+            - dash turn right
+            - buffer hold down-right to jump
+            - tap down
+            - move up a few pixels
+            - move left to a ledge without stopping (don't jump left)
+            - quick hop down and hold left while falling
+        `,
+    },
+
+    {
+        title: "Laser Bridge Mirror Wrap",
+        world: "dark",
+        pos: [6306, 1000],
+        text: `
+            =laser_bridge_mirror
+            - teleport down
+            - tap down, left
+            - half circle left
+            - tap down, left
+            - buffer up-right to jump
+            - transition right
+            - jump left
+            - mirror wrap
+            - hold right to auto walk
+            - hold up to jump
+            - walk into the entrance
+        `,
+    },
+
+    {
         title: "Turtle Rock Teleport (Dark)",
         world: "dark",
         pos: [9226, 435],
         text: `
             =dark_tr_teleport
             - teleport down
+        `,
+    },
+
+    {
+        title: "Catfish DMD",
+        world: "dark",
+        pos: [9548, 1065],
+        text: `
+            =catfish_dmd
+            - superspeed clip or buffer left through the corner
+            - hold right
+        `,
+    },
+
+    {
+        title: "Turtle Rock to Skull Wrap",
+        world: "dark",
+        pos: [9839, 790],
+        text: `
+            =tr_skull_wrap
+            - align under the rocks
+            - buffer into the wall part way
+            - dash down and hold left while falling to transition
+            - carefully walk into the skull entrance without moving right
+        `,
+    },
+
+    {
+        title: "Dark Witch DMD (West)",
+        world: "dark",
+        pos: [7839, 2355],
+        text: `
+            =dark_witch_dmd_west
+            With superspeed:
+            - hold down and tap right into the corner to jump
+            - tap up to transition
+
+            No superspeed:
+            - buffer a few pixels into the corner
+            - dash turn down to jump
+            - tap up to transition
+        `,
+    },
+
+    {
+        title: "Dark Witch DMD (East)",
+        world: "dark",
+        pos: [8565, 2323],
+        text: `
+            =dark_witch_dmd_east
+            With superspeed:
+            - hold down and tap right into the corner to jump
+            - move up until ears are visible
+            - tap down to transition
+
+            No superspeed:
+            - buffer a few pixels into the corner
+            - dash turn down to jump
+            - move up until ears are visible
+            - tap down to transition
+        `,
+    },
+
+    {
+        title: "Hookshot Cave Clip",
+        world: "dark",
+        pos: [8274, 2177],
+        text: `
+            =hookshot_cave_clip
+            - go to the teleport spot or slightly above
+            - buffer into the wall until you jump
+            - dash down twice
+            - walk into the entrance
         `,
     },
 
@@ -694,18 +1167,34 @@ POINTS = [
     },
 
     {
-        title: "Village of Outcasts to Mire",
+        title: "Catfish DMA",
         world: "dark",
-        pos: [242, 6081],
+        pos: [8790, 3177],
         text: `
-            =voo_to_mire_1
-            - teleport down to jump
-            - tap right
-            - move up left slightly then transition down
+            =catfish_dma_1
+            - line up in this corner of the cliff, then transition right
+            - dash turn down to jump
 
-            =voo_to_mire_2
-            - carefully walk this far left
-            - slow hop down twice
+            =catfish_dma_2
+            - walk up to here and jump left
+            - dash up
+
+            =catfish_dma_3
+            - wiggle left and right until the screen is here
+            - transition down
+
+            With flippers:
+            - swim left 3-4 tiles, then transition up
+            - jump down
+            - walk into the entrance
+
+            No flippers:
+            - move up 2 frames
+            - jump left into the water and fake flipper up
+            - tap right
+            - hold left to jump, and hold up while falling
+            - jump down
+            - walk into the entrance
         `,
     },
 
@@ -724,6 +1213,376 @@ POINTS = [
 
             =pyramid_fairy_3
             - walk up into the portal
+        `,
+    },
+
+    {
+        title: "OWG Kiki Skip",
+        world: "dark",
+        pos: [9581, 6419],
+        text: `
+            =owg_kiki_skip_1
+            - Line up here or 1-2 pixels higer
+            - Mirror and transition up
+            - Do Eastern Teleport
+
+            =owg_kiki_skip_2
+            - Use a bomb to walk past the portal to this point
+            - Throw bomb and walk down into the portal
+            - Hold down to enter PoD
+        `,
+    },
+
+    {
+        title: "Moat Clip (North)",
+        world: "dark",
+        pos: [6419, 5565],
+        text: `
+            =moat_clip_north
+            - superspeed clip or buffer left into the corner
+        `,
+    },
+
+    {
+        title: "Moat Clip (South)",
+        world: "dark",
+        pos: [6565, 6742],
+        text: `
+            =moat_clip_south
+            - superspeed clip or buffer left into the corner
+        `,
+    },
+
+    {
+        title: "Dark River FAWT",
+        world: "dark",
+        pos: [5984, 6839],
+        text: `
+            =dark_river_fawt
+            - line up on top of the bush
+            - buffer into the wall about this far
+            - dash to jump
+            - hold right while falling
+            - release right during splash
+            - move up until stopped
+            - tap right
+        `,
+    },
+
+    {
+        title: "Moat to Hype Cave",
+        world: "dark",
+        pos: [6210, 7065],
+        text: `
+            =moat_to_hype_cave
+            - swim left into the transition
+            - hold up-right while transitioning to snap in bounds
+
+            If you get pushed back into the transition:
+            - release d-pad and wait for transition to complete
+            - hold down
+        `,
+    },
+
+    {
+        title: "Moat to Hammer Pegs",
+        world: "dark",
+        pos: [3742, 5855],
+        text: `
+            =moat_to_pegs
+            - swim left into the transition
+            - hold up-left while transitioning to jump in bounds
+        `,
+    },
+
+    {
+        title: "Pegs Clip",
+        world: "dark",
+        pos: [2581, 5629],
+        text: `
+            =pegs_clip_1
+            - align here
+
+            =pegs_clip_2
+            - buffer this far into the wall
+            - dash to jump, and hold right to fake flipper
+            - after autoswimming, hold up to jump out of water
+            - mirror and find bat cave to fix camera
+        `,
+    },
+
+    {
+        title: "Village of Outcasts to Mire",
+        world: "dark",
+        pos: [242, 6081],
+        text: `
+            =voo_to_mire_1
+            - teleport down to jump
+            - tap right
+            - move up left slightly then transition down
+
+            =voo_to_mire_2
+            - carefully walk this far left
+            - slow hop down twice
+        `,
+    },
+
+    {
+        title: "Digging Game Teleports",
+        world: "dark",
+        pos: [210, 7306],
+        text: `
+            =digging_to_mire
+            To reach Mire:
+            - teleport down to jump
+
+            =digging_to_voo_1
+            To reach Village of Outcasts:
+            - teleport up
+            - release down-left to avoid jumping
+
+            =digging_to_voo_2
+            - teleport up
+        `,
+    },
+
+    {
+        title: "Bunny Mirewrap",
+        world: "dark",
+        pos: [1113, 7419],
+        text: `
+            =bunny_mire_1
+            - mirror wrap right
+            - transition left
+            - hold left until jump
+            - tap up
+            - transition down near the seam
+
+            =bunny_mire_2
+            - hold down until jump
+            - hold right until jump
+            - hold down-left until stuck and mirror
+
+            =bunny_mire_3
+            - enter desert here
+        `,
+    },
+
+    {
+        title: "Smith YBA",
+        world: "dark",
+        pos: [1452, 6629],
+        text: `
+            =smith_yba_1
+            - red or green YBA down
+            - hop up twice and walk to smith
+
+            =smith_yba_2
+            To reach Kakariko:
+            - walk right to around here
+            - mirror and dash up
+        `,
+    },
+
+    {
+        title: "Stumpy Mirror Wrap",
+        world: "dark",
+        pos: [3081, 6823],
+        text: `
+            =stumpy_wrap_1
+            - mirror wrap left
+            - transition right
+
+            =stumpy_wrap_2
+            - walk up-left to here
+            - walk left until blocked
+            - wiggle left and right until the seam is visible
+
+            =stumpy_wrap_3
+            - walk right to here and talk to stumpy
+
+            To get link state:
+            - walk down-left then down-right to transition down
+            - cut the bushes
+            - touch the pull statue south of hype cave
+        `,
+    },
+
+    {
+        title: "Arrow Game to Mire",
+        world: "dark",
+        pos: [1968, 7387],
+        text: `
+            =arrow_game_to_mire
+            - teleport down to jump
+        `,
+    },
+
+    {
+        title: "Grove to Mire",
+        world: "dark",
+        pos: [2694, 7919],
+        text: `
+            =grove_to_mire
+            - teleport down to jump
+        `,
+    },
+
+    {
+        title: "Swamp Cliff Shortcuts (DW)",
+        world: "dark",
+        pos: [4274, 8113],
+        text: `
+            =swamp_cliff_dw_1
+            =swamp_cliff_dw_2
+            - superspeed clip or buffer into the corners
+        `,
+    },
+
+    {
+        title: "Swamp Portal Bomb Clip",
+        world: "dark",
+        pos: [4435, 7758],
+        text: `
+            =swamp_portal_clip
+            - align here
+            - move to the left wall and place a bomb
+            - align above the statue
+            - dash into the bomb as it explodes
+            - dash to jump onto the cliff
+        `,
+    },
+
+    {
+        title: "Ice Flippers Wrap",
+        world: "dark",
+        pos: [6000, 8274],
+        text: `
+            =ice_flippers_wrap_1
+            Step 1:
+            - teleport down onto the cliff
+
+            =ice_flippers_wrap_2
+            Step 2:
+            - buffer into the bump to jump
+            - tap up
+            - dash down to jump
+
+            =ice_flippers_wrap_3
+            Step 3:
+            - swim right 2 tiles onto land
+            - walk down 1 tile
+            - dash right to wrap around to the cliff
+            - repeat steps 1 and 2
+            - swim and walk down until stopped
+            - tap right to transition
+
+            =ice_flippers_wrap_4
+            - walk down to transition
+
+            =ice_flippers_wrap_5
+            - enter ice palace
+        `,
+    },
+
+    {
+        title: "Ice Mirror Wrap",
+        world: "dark",
+        pos: [6258, 8952],
+        text: `
+            =ice_mirror_wrap_1
+            From swamp side:
+            - buffer into the corner to jump
+            - jump right
+            - transition right
+
+            =ice_mirror_wrap_2
+            =ice_mirror_wrap_3
+            From ice side:
+            - teleport down
+            - tap right
+            - teleport down
+
+            =ice_mirror_wrap_4
+            - get as high as possible without jumping or transitioning
+            - mirror wrap left
+
+            =ice_mirror_wrap_5
+            - move up until the bottom of shadow is a few pixels below this line
+            - transition right
+            - tap right, down
+
+            =ice_mirror_wrap_6
+            - enter ice palace
+        `,
+    },
+
+    {
+        title: "Ice YBA",
+        world: "dark",
+        pos: [6258, 8629],
+        text: `
+            =ice_yba_1
+            - buffer into the bump to jump
+            - dash-turn down
+            - red or green YBA down
+            - tap right
+
+            =ice_yba_2
+            - enter ice palace
+        `,
+    },
+
+    {
+        title: "Desert Right Clip",
+        world: "dark",
+        pos: [1081, 7984],
+        text: `
+            =desert_right_clip
+            - face left and move up into the door until stopped
+            - mirror
+            - tap left
+            - walk up into desert
+        `,
+    },
+
+    {
+        title: "Mire Exit",
+        world: "dark",
+        pos: [1661, 7855],
+        text: `
+            =mire_exit_1
+            - teleport down to jump
+
+            =mire_exit_2
+            To reach arrow game:
+            - transition up here
+
+            =mire_exit_3
+            To reach south of grove:
+            - dash right here
+        `,
+    },
+
+    {
+        title: "Mire to Swamp",
+        world: "dark",
+        pos: [2097, 8871],
+        text: `
+            =mire_to_swamp
+            - teleport down to jump
+        `,
+    },
+
+    {
+        title: "Swamp to Mire",
+        world: "dark",
+        pos: [2597, 9790],
+        text: `
+            =swamp_to_mire
+            - teleport down to jump
+            - tap up
+            - after transition, move down first
         `,
     },
 ];

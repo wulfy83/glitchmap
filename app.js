@@ -59,7 +59,21 @@ function init_world(world) {
     }
 }
 
+function check_duplicates() {
+    for (let i = 0; i < POINTS.length; i++) {
+        for (let j = i + 1; j < POINTS.length; j++) {
+            const p1 = POINTS[i];
+            const p2 = POINTS[j];
+            if (p1.world === p2.world && p1.pos[0] === p2.pos[0] && p1.pos[1] === p2.pos[1]) {
+                console.log(`WARNING: points "${p1.title}" and "${p2.title}" are in the same place`);
+            }
+        }
+    }
+}
+
 function main() {
+    check_duplicates();
+
     const worlds = [
         { name: "light", map: light_map },
         { name: "dark",  map: dark_map  },
