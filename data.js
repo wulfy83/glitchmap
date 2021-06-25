@@ -142,7 +142,7 @@ POINTS = [
     },
 
     {
-        title: "Hera Wrap (superspeed)",
+        title: "Hera Wrap (Superspeed)",
         world: "light",
         pos: [5452, 2452],
         text: `
@@ -783,6 +783,35 @@ POINTS = [
 
             =icerod_to_eastern_2
             - dash up here
+        `,
+    },
+
+    {
+        title: "Kiki Skip",
+        world: "light",
+        pos: [4548, 1371],
+        text: `
+            =kiki_skip
+            - stand 1-3 pixels above this rock and roughly centered on it
+            - face right and drop a bomb
+            - align with the bottom wall and dash right into the bomb as it explodes
+            - hold up-left
+        `,
+    },
+
+    {
+        title: "Ice Palace Clip",
+        world: "dark",
+        pos: [7968, 8613],
+        text: `
+            =ice_clip
+            - stand here or 1 pixel right
+            - dash turn down to bonk
+            - dash turn right
+            - throw a bomb
+            - align with the bottom wall and dash into the bomb as it explodes
+            - hold up-left to transition
+            - switch to holding down during the transition
         `,
     },
 
