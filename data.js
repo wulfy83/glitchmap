@@ -102,6 +102,7 @@ POINTS = [
         text: `
             =graveyard_ledge_clip
             With superspeed:
+            - walk down the slope into the corner
             - clip left through the corner
             - hold up-left while falling
             - hold up to transition
@@ -716,8 +717,20 @@ POINTS = [
         world: "light",
         pos: [7145, 7145],
         text: `
-            =hobo_clip
-            - superspeed clip or buffer right through the corner
+            =hobo_clip_1
+            No flippers:
+            - line up shadow with top of flower
+            - buffer through the wall until jump
+            - buffer down-right to snap
+            - dash-turn up
+
+            =hobo_clip_2
+            - tap up
+            - hold left while hitting the water
+
+            =hobo_clip_3
+            With flippers:
+            - buffer or superspeed clip through the corner
         `,
     },
 
@@ -1263,6 +1276,20 @@ POINTS = [
     },
 
     {
+        title: "PoD to Dark Ice Rod Cave",
+        world: "dark",
+        pos: [9339, 7306],
+        text: `
+            =pod_to_icerod_1
+            - teleport down and hold down-right to jump
+            - tap up then left
+
+            =pod_to_icerod_2
+            - teleport down to transition
+        `,
+    },
+
+    {
         title: "Moat Clip (North)",
         world: "dark",
         pos: [6419, 5565],
@@ -1552,7 +1579,7 @@ POINTS = [
         pos: [6258, 8629],
         text: `
             =ice_yba_1
-            - buffer into the bump to jump
+            - buffer into the bump at the teleport posistion to jump
             - dash-turn down
             - red or green YBA down
             - tap right
