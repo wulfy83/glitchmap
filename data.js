@@ -870,6 +870,7 @@ POINTS = [
         pos: [3871, 2403],
         text: `
             =skydive_1
+            - hera wrap and jump down to the warp, without fixing camera
             - superspeed clip or buffer left through the corner
 
             =skydive_2
