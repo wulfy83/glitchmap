@@ -477,9 +477,10 @@ POINTS = [
         pos: [274, 7032],
         text: `
             =race_game_south_1
-            - buffer to down-teleport location but 1 pixel higher
+            - clip to down-teleport location but 1 pixel higher
             - dash turn right
-            - buffer down left to get item
+            - buffer down left, then buffer to neutral
+            - tap down to get item
             - tap right to escape
 
             =race_game_south_2
@@ -541,6 +542,20 @@ POINTS = [
         text: `
             =gloveless_desert
             - on either side, buffer into the slope until you jump
+        `,
+    },
+
+    {
+        title: "Desert Bomb Clip",
+        world: "light",
+        pos: [355, 8290],
+        text: `
+            =desert_bomb_clip_1
+            - align here and place a bomb
+
+            =desert_bomb_clip_2
+            - move up along the slope around here and dash into the explosion
+            - dash left to jump
         `,
     },
 
