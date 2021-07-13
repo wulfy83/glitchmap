@@ -479,12 +479,12 @@ POINTS = [
             =race_game_south_1
             - clip to down-teleport location but 1 pixel higher
             - dash turn right
-            - buffer down left, then buffer to neutral
-            - tap down to get item
-            - tap right to escape
+            - buffer down left, roll to down, release d-pad while getting item
+            - tap right
+            - dash turn left to jump to desert
 
             =race_game_south_2
-            To continue to desert:
+            To continue to desert (if you break free after getting the item):
             - teleport up to jump
             - move left 3 tiles and transition down
         `,
@@ -786,6 +786,7 @@ POINTS = [
             - teleport up
             - move left to edge
             - dash up
+            - if transitioning left, move right to fix camera first
         `,
     },
 
