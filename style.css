@@ -13,6 +13,7 @@ body {
     padding: 0;
     height: 100%;
     width: 100%;
+    color: white;
 }
 
 .noselect {
@@ -42,10 +43,9 @@ body {
     position: absolute;
     width: 100%;
     height: 100%;
-    background-color: #222222;
-    color: white;
     border: 2px solid white;
     box-sizing: border-box;
+    background-color: #222222;
     padding: 8px;
     overflow-y: auto;
 }
@@ -67,12 +67,23 @@ body {
 .point {
     position: absolute;
     transform: translate(-7px, -7px);
-    background-color: #ff0000;
     width: 15px;
     height: 15px;
     border-radius: 15px;
     border: 1px solid black;
     box-sizing: border-box;
+}
+
+.point-normal {
+    background-color: #ff0000;
+}
+
+.point-indoor {
+    background-color: #ffff00;
+}
+
+.point-muted {
+    background-color: #888888;
 }
 
 .point:hover {

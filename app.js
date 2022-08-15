@@ -53,6 +53,7 @@ function format_point_text(point) {
 function init_world(world) {
     world.map.style.width = MAP_SIZE + "px";
     world.map.style.height = MAP_SIZE + "px";
+    world.map.replaceChildren();
     world.map.onclick = function (event) {
         coordinates = relative_coordinates(event_coordinates(event));
         log_coordinates(coordinates);
@@ -71,9 +72,7 @@ function check_duplicates() {
     }
 }
 
-function main() {
-    check_duplicates();
-
+function add_points() {
     const worlds = [
         { name: "light", map: light_map },
         { name: "dark",  map: dark_map  },
@@ -86,6 +85,8 @@ function main() {
             const [x, y] = absolute_coordinates(point.pos);
             const element = document.createElement("div");
             element.classList.add("point");
+            const type = point.type || "normal";
+            element.classList.add("point-" + type);
             element.style.left = x + "px";
             element.style.top = y + "px";
             element.onclick = function (event) {
@@ -95,6 +96,11 @@ function main() {
             world.map.appendChild(element);
         }
     }
+}
+
+function main() {
+    check_duplicates();
+    add_points();
 }
 
 main();
