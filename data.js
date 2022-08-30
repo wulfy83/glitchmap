@@ -1,14 +1,16 @@
 POINTS = [
+    // Overworld Glitches
+
     {
         title: "Lumberjack DMA",
         world: "light",
         pos: [3581, 629],
         text: `
-            =lumberjack_dma_1
+            =ow/lumberjack_dma_1
             - down teleport and hold
             - jump right
 
-            =lumberjack_dma_2
+            =ow/lumberjack_dma_2
             - dashturn tight to get in bounds
         `,
     },
@@ -18,11 +20,11 @@ POINTS = [
         world: "light",
         pos: [3290, 1371],
         text: `
-            =foothills_clip_1
+            =ow/foothills_clip_1
             To reach upper ledge:
             - down teleport and hold
 
-            =foothills_clip_2
+            =ow/foothills_clip_2
             To get from the upper ledge to the lower cave:
             - clip into the bump
             - hold down
@@ -34,12 +36,12 @@ POINTS = [
         world: "light",
         pos: [3516, 2629],
         text: `
-            =new_dma_1
+            =ow/new_dma_1
             - go here or 1-2 pixels lower
             - buffer or superspeed into the corner until jump
             - press down to transition
 
-            =new_dma_2
+            =ow/new_dma_2
             - jump right
             - move right past the brown
             - hold up-left to jump
@@ -56,13 +58,13 @@ POINTS = [
         type: "muted",
         pos: [3780, 2629],
         text: `
-            =classic_dma_1
+            =ow/classic_dma_1
             - up teleport
 
-            =classic_dma_2
+            =ow/classic_dma_2
             - transition right here
 
-            =classic_dma_3
+            =ow/classic_dma_3
             - wiggle up and down until the entrance is on screen then enter
         `,
     },
@@ -73,7 +75,7 @@ POINTS = [
         type: "muted",
         pos: [4016, 387],
         text: `
-            =ether_dmd
+            =ow/ether_dmd
             - clip through the corner
             - dash-turn left
         `,
@@ -84,7 +86,7 @@ POINTS = [
         world: "light",
         pos: [4339, 2435],
         text: `
-            =light_dmd
+            =ow/light_dmd
             - clip through left corner
             - tap right
             - dash-turn up and bonk
@@ -97,7 +99,7 @@ POINTS = [
         world: "light",
         pos: [5694, 2677],
         text: `
-            =graveyard_ledge_clip
+            =ow/graveyard_ledge_clip
             With superspeed:
             - walk down the slope into the corner
             - clip left through the corner
@@ -117,7 +119,7 @@ POINTS = [
         world: "light",
         pos: [6000, 2935],
         text: `
-            =kings_tomb
+            =ow/kings_tomb
             - graveyard ledge clip
             - buffer up 1 frame
             - dash turn right
@@ -131,10 +133,10 @@ POINTS = [
         world: "light",
         pos: [6613, 2065],
         text: `
-            =east_dm_clip_1
+            =ow/east_dm_clip_1
             - clip right through the corner
 
-            =east_dm_clip_2
+            =ow/east_dm_clip_2
             - jump down to return in bounds
         `,
     },
@@ -144,13 +146,13 @@ POINTS = [
         world: "light",
         pos: [5581, 2323],
         text: `
-            =hera_buffer
+            =ow/hera_buffer
             Without superspeed:
             - buffer left through the bump
             - tap right
             - hold left then up
 
-            =hera_superspeed
+            =ow/hera_superspeed
             With superspeed:
             - clip through right corner
             - tap up
@@ -163,7 +165,7 @@ POINTS = [
         world: "light",
         pos: [5161, 726],
         text: `
-            =spec_rock_teleport
+            =ow/spec_rock_teleport
             - teleport down
         `,
     },
@@ -173,8 +175,8 @@ POINTS = [
         world: "light",
         pos: [5435, 710],
         text: `
-            =light_dm_bomb_clip_1
-            =light_dm_bomb_clip_2
+            =ow/light_dm_bomb_clip_1
+            =ow/light_dm_bomb_clip_2
             - place bomb
             - dash into the bomb as it explodes
             - dash
@@ -187,7 +189,7 @@ POINTS = [
         world: "light",
         pos: [6016, 871],
         text: `
-            =dm_land_bridge_teleport
+            =ow/dm_land_bridge_teleport
             - teleport down
             - tap down, tap left, half circle left, repeat until free
             - jump right and transition
@@ -200,7 +202,7 @@ POINTS = [
         type: "muted",
         pos: [7145, 887],
         text: `
-            =dm_land_bridge_return
+            =ow/dm_land_bridge_return
             - clip left through the corner
             - stay high for transition
         `,
@@ -212,7 +214,7 @@ POINTS = [
         type: "muted",
         pos: [7339, 694],
         text: `
-            =dm_peg_skip
+            =ow/dm_peg_skip
             - teleport up
         `,
     },
@@ -222,7 +224,7 @@ POINTS = [
         world: "light",
         pos: [6355, 387],
         text: `
-            =cloud_teleport_west
+            =ow/cloud_teleport_west
             - teleport up
         `,
     },
@@ -232,7 +234,7 @@ POINTS = [
         world: "light",
         pos: [7742, 677],
         text: `
-            =cloud_teleport_east
+            =ow/cloud_teleport_east
             - teleport up
         `,
     },
@@ -242,13 +244,13 @@ POINTS = [
         world: "light",
         pos: [7887, 65],
         text: `
-            =floating_island_noflips
+            =ow/floating_island_noflips
             No flippers:
             - jump down into water as far right as possible
             - move left 1 frame, then down 1 frame
             - dash right
 
-            =floating_island_flips
+            =ow/floating_island_flips
             Flippers:
             - aim for the corner and jump
             - hold right and pump down
@@ -260,7 +262,7 @@ POINTS = [
         world: "light",
         pos: [9226, 435],
         text: `
-            =light_tr_teleport
+            =ow/light_tr_teleport
             - teleport down
         `,
     },
@@ -270,11 +272,11 @@ POINTS = [
         world: "light",
         pos: [9032, 984],
         text: `
-            =waterfall_dmd_1
+            =ow/waterfall_dmd_1
             - clip left through the corner
 
-            =waterfall_dmd_2
-            =waterfall_dmd_3
+            =ow/waterfall_dmd_2
+            =ow/waterfall_dmd_3
             - transition down here
             - tap right, tap down
         `,
@@ -285,7 +287,7 @@ POINTS = [
         world: "light",
         pos: [9548, 1081],
         text: `
-            =zora_dmd
+            =ow/zora_dmd
             - clip left through the corner
             - hold right
         `,
@@ -296,7 +298,7 @@ POINTS = [
         world: "light",
         pos: [7823, 2371],
         text: `
-            =witch_dmd
+            =ow/witch_dmd
             - without superspeed, buffer into the corner and dash-turn down
             - with superspeed, pump through the corner
             - press up to transition
@@ -308,7 +310,7 @@ POINTS = [
         world: "light",
         pos: [9855, 1242],
         text: `
-            =zora_ledge_clip
+            =ow/zora_ledge_clip
             - buffer towards this bump until you jump
             - go all the way around
         `,
@@ -320,21 +322,21 @@ POINTS = [
         type: "muted",
         pos: [9597, 1435],
         text: `
-            =zora_dma_1
+            =ow/zora_dma_1
             - teleport up
             - tap right
             - carefully move up-left to the ledge
 
-            =zora_dma_2
+            =ow/zora_dma_2
             - jump left
             - transition up
 
-            =zora_dma_3
+            =ow/zora_dma_3
             - transition left
             - jump down
             - tap left
 
-            =zora_dma_4
+            =ow/zora_dma_4
             For bottom of paradox:
             - move up 1 tile
             - dash turn left
@@ -355,7 +357,7 @@ POINTS = [
         world: "light",
         pos: [3613, 3629],
         text: `
-            =aga_river_clip
+            =ow/aga_river_clip
             - clip into the wall around here
             - dash turn down to jump
             - dash right and find the screen transition
@@ -368,7 +370,7 @@ POINTS = [
         world: "light",
         pos: [3855, 4435],
         text: `
-            =castle_jump
+            =ow/castle_jump
             - stand with your shadow slightly above the wall shadow
             - clip into the wall until blocked
             - dash up
@@ -382,7 +384,7 @@ POINTS = [
         world: "light",
         pos: [8129, 3532],
         text: `
-            =witch_to_eastern_east
+            =ow/witch_to_eastern_east
             - teleport down to jump
             - jump down
             - transition down
@@ -394,7 +396,7 @@ POINTS = [
         world: "light",
         pos: [8581, 3484],
         text: `
-            =witch_to_zora
+            =ow/witch_to_zora
             - teleport up to jump
             - transition right
         `,
@@ -405,7 +407,7 @@ POINTS = [
         world: "light",
         pos: [9194, 2984],
         text: `
-            =zora_to_witch
+            =ow/zora_to_witch
             - teleport down to jump
             - transition left
         `,
@@ -416,7 +418,7 @@ POINTS = [
         world: "light",
         pos: [9177, 3597],
         text: `
-            =zora_to_eastern
+            =ow/zora_to_eastern
             - teleport down
             - hold left to get free
         `,
@@ -427,7 +429,7 @@ POINTS = [
         world: "light",
         pos: [2581, 5629],
         text: `
-            =bat_cave_clip
+            =ow/bat_cave_clip
             - align with the fence
             - clip partially into the slope
             - dash to jump, hold right while falling
@@ -443,21 +445,21 @@ POINTS = [
         world: "light",
         pos: [242, 6081],
         text: `
-            =kak_to_race_1
+            =ow/kak_to_race_1
             - teleport down to jump
             - tap right
             - move up left slightly then transition down
 
-            =kak_to_race_2
+            =ow/kak_to_race_2
             To get the race item:
             - jump down here
 
-            =kak_to_race_3
+            =ow/kak_to_race_3
             To reach desert:
             - sword buffer carefully to reach the lowest ledge
             - slow hop down twice
 
-            =kak_to_race_4
+            =ow/kak_to_race_4
             To reach eastern:
             - transition left on the ledge
             - move into the right side of the tree and walk up into eastern
@@ -469,14 +471,14 @@ POINTS = [
         world: "light",
         pos: [274, 7032],
         text: `
-            =race_game_south_1
+            =ow/race_game_south_1
             - clip to down-teleport location but 1 pixel higher
             - dash turn right
             - buffer down left, roll to down, release d-pad while getting item
             - tap right
             - dash turn left to jump to desert
 
-            =race_game_south_2
+            =ow/race_game_south_2
             To continue to desert (if you break free after getting the item):
             - teleport up to jump
             - move left 3 tiles and transition down
@@ -488,10 +490,10 @@ POINTS = [
         world: "light",
         pos: [274, 7323],
         text: `
-            =race_game_to_desert_1
+            =ow/race_game_to_desert_1
             - teleport up to jump
 
-            =race_game_to_desert_2
+            =ow/race_game_to_desert_2
             To directly enter desert back:
             - walk here and transition down
             - hold up to jump down
@@ -503,7 +505,7 @@ POINTS = [
         world: "light",
         pos: [1984, 7387],
         text: `
-            =library_to_checker
+            =ow/library_to_checker
             - teleport down and hold down-left to jump
         `,
     },
@@ -514,7 +516,7 @@ POINTS = [
         type: "muted",
         pos: [419, 7806],
         text: `
-            =desert_return_west
+            =ow/desert_return_west
             - teleport up
         `,
     },
@@ -524,7 +526,7 @@ POINTS = [
         world: "light",
         pos: [1210, 7806],
         text: `
-            =desert_return_east
+            =ow/desert_return_east
             - teleport up
         `,
     },
@@ -534,7 +536,7 @@ POINTS = [
         world: "light",
         pos: [742, 7645],
         text: `
-            =gloveless_desert
+            =ow/gloveless_desert
             - on either side, buffer into the slope until you jump
         `,
     },
@@ -544,12 +546,12 @@ POINTS = [
         world: "light",
         pos: [355, 8290],
         text: `
-            =desert_bomb_clip_1
+            =ow/desert_bomb_clip_1
             - align here, place a bomb, immediately dash up and bonk
             - after landing, buffer up-left for at least one frame
             - dash left
 
-            =desert_bomb_clip_2
+            =ow/desert_bomb_clip_2
             - align here if dark world graphics are loaded
         `,
     },
@@ -559,7 +561,7 @@ POINTS = [
         world: "light",
         pos: [1742, 7919],
         text: `
-            =checker_return
+            =ow/checker_return
             - teleport down
         `,
     },
@@ -569,7 +571,7 @@ POINTS = [
         world: "light",
         pos: [2726, 7919],
         text: `
-            =grove_to_checker
+            =ow/grove_to_checker
             - teleport down and hold down-left to jump
         `,
     },
@@ -579,12 +581,12 @@ POINTS = [
         world: "light",
         pos: [2532, 8435],
         text: `
-            =cave_45_to_checker_1
+            =ow/cave_45_to_checker_1
             Without superspeed:
             - buffer into the bump until jump
             - transition left
 
-            =cave_45_to_checker_2
+            =ow/cave_45_to_checker_2
             With superspeed:
             - superspeed clip into the corner to jump
             - dash left
@@ -596,7 +598,7 @@ POINTS = [
         world: "light",
         pos: [2710, 8613],
         text: `
-            =cave_45_to_bombos
+            =ow/cave_45_to_bombos
             - get on the cliff and transition down here
             - hold up to jump down
         `,
@@ -607,7 +609,7 @@ POINTS = [
         world: "light",
         pos: [2363, 9000],
         text: `
-            =desert_to_cave45
+            =ow/desert_to_cave45
             - superspeed clip or buffer into the slope to jump
         `,
     },
@@ -617,7 +619,7 @@ POINTS = [
         world: "light",
         pos: [2097, 9113],
         text: `
-            =bombos_teleport_west
+            =ow/bombos_teleport_west
             - teleport down and hold down-right to jump
         `,
     },
@@ -627,7 +629,7 @@ POINTS = [
         world: "light",
         pos: [2726, 9161],
         text: `
-            =bombos_teleport_east
+            =ow/bombos_teleport_east
             - teleport down and hold down-left to jump
         `,
     },
@@ -637,7 +639,7 @@ POINTS = [
         world: "light",
         pos: [113, 9677],
         text: `
-            =mire_portal_teleport
+            =ow/mire_portal_teleport
             - teleport down
         `,
     },
@@ -648,15 +650,15 @@ POINTS = [
         type: "muted",
         pos: [2129, 9919],
         text: `
-            =desert_to_zora_1
+            =ow/desert_to_zora_1
             - teleport down to jump
             - tap right
 
-            =desert_to_zora_2
+            =ow/desert_to_zora_2
             - teleport down to jump
             - tap left
 
-            =desert_to_zora_3
+            =ow/desert_to_zora_3
             - transition down here
         `,
     },
@@ -666,8 +668,8 @@ POINTS = [
         world: "light",
         pos: [4274, 8113],
         text: `
-            =swamp_cliff_lw_1
-            =swamp_cliff_lw_2
+            =ow/swamp_cliff_lw_1
+            =ow/swamp_cliff_lw_2
             - superspeed clip or buffer into the corners
             - with superspeed, align bottom of shadow with the seam
         `,
@@ -678,19 +680,19 @@ POINTS = [
         world: "light",
         pos: [6484, 7371],
         text: `
-            =hylia_teleport_1
+            =ow/hylia_teleport_1
             - teleport down and hold down-left to jump
 
-            =hylia_teleport_2
+            =ow/hylia_teleport_2
             To reach the island:
             - tap down here to autowalk
 
-            =hylia_teleport_3
+            =ow/hylia_teleport_3
             To reach hobo:
             - buffer 3 times into the corner, dash-turn left to bonk
             - jump and fake flipper
 
-            =hylia_teleport_4
+            =ow/hylia_teleport_4
             To swim to Zora:
             - place bottom of link's shadow inside this rock
             - transition right and dash right to jump
@@ -704,18 +706,18 @@ POINTS = [
         world: "light",
         pos: [7145, 7145],
         text: `
-            =hobo_clip_1
+            =ow/hobo_clip_1
             No flippers:
             - line up shadow with top of flower
             - buffer through the wall until jump
             - buffer down-right to snap
             - dash-turn up
 
-            =hobo_clip_2
+            =ow/hobo_clip_2
             - tap up
             - hold left while hitting the water
 
-            =hobo_clip_3
+            =ow/hobo_clip_3
             With flippers:
             - buffer or superspeed clip through the corner
         `,
@@ -726,11 +728,11 @@ POINTS = [
         world: "light",
         pos: [9597, 6113],
         text: `
-            =eastern_teleport_1
+            =ow/eastern_teleport_1
             - teleport down and hold down-left to jump
             - move up a bit and jump right twice to screen wrap
 
-            =eastern_teleport_2
+            =ow/eastern_teleport_2
             - move to this horizontal position and walk up into Eastern
         `,
     },
@@ -740,11 +742,11 @@ POINTS = [
         world: "light",
         pos: [9339, 7306],
         text: `
-            =eastern_to_icerod_1
+            =ow/eastern_to_icerod_1
             - teleport down and hold down-right to jump
             - tap up then left
 
-            =eastern_to_icerod_2
+            =ow/eastern_to_icerod_2
             - teleport down to transition
         `,
     },
@@ -754,7 +756,7 @@ POINTS = [
         world: "light",
         pos: [8790, 4048],
         text: `
-            =eastern_to_zora
+            =ow/eastern_to_zora
             - teleport up
             - move left to edge
             - dash up
@@ -768,7 +770,7 @@ POINTS = [
         type: "muted",
         pos: [8903, 7952],
         text: `
-            =bombless_icerod
+            =ow/bombless_icerod
             - upward teleport, but 1 pixel lower and 1 pixel to the right
             - hold left then up
         `,
@@ -780,50 +782,12 @@ POINTS = [
         type: "muted",
         pos: [9790, 8290],
         text: `
-            =icerod_to_eastern_1
+            =ow/icerod_to_eastern_1
             - down teleport and hold down-right to jump
             - screen transition right
 
-            =icerod_to_eastern_2
+            =ow/icerod_to_eastern_2
             - dash up here
-        `,
-    },
-
-    {
-        title: "Kiki Skip",
-        world: "light",
-        type: "indoor",
-        pos: [4548, 1371],
-        text: `
-            =kiki_skip
-            - stand 1-3 pixels above this rock and roughly centered on it
-            - face right and drop a bomb
-            - align with the bottom wall and dash right into the bomb as it explodes
-            - hold up-left
-        `,
-    },
-
-    {
-        title: "Ice Palace",
-        world: "dark",
-        type: "indoor",
-        pos: [7968, 8613],
-        text: `
-            =ice_clip
-            Ice Clip:
-            - stand here or 1 pixel right
-            - dash turn down to bonk
-            - dash turn right
-            - throw a bomb
-            - align with the bottom wall and dash into the bomb as it explodes
-            - hold up-left to transition
-            - switch to holding down during the transition
-
-            Kholdstare YBA:
-            - go to room above Kholdstare
-            - bomb snap into the door
-            - red/blue spin YBA
-            - if blue, tap left then right to fall in
         `,
     },
 
@@ -832,12 +796,12 @@ POINTS = [
         world: "dark",
         pos: [3581, 629],
         text: `
-            =dark_lumberjack_dma_1
+            =ow/dark_lumberjack_dma_1
             - down teleport and hold
             - jump right
             - tap down after transition
 
-            =dark_lumberjack_dma_2
+            =ow/dark_lumberjack_dma_2
             - jump down in bounds
         `,
     },
@@ -847,29 +811,29 @@ POINTS = [
         world: "dark",
         pos: [3290, 1371],
         text: `
-            =bumper_clip_1
+            =ow/bumper_clip_1
             To reach upper ledge:
             - down teleport and hold
 
-            =bumper_clip_2
+            =ow/bumper_clip_2
             To get from the upper ledge to the lower cave:
             - clip into the bump
             - hold down
 
-            =bumper_clip_3
+            =ow/bumper_clip_3
             As a bunny:
             - line up here
 
-            =bumper_clip_4
+            =ow/bumper_clip_4
             - alternate 1 frame up-right, 1 frame down-right, until this position
 
-            =bumper_clip_5
+            =ow/bumper_clip_5
             - buffer up-right to this position
             - 1 frame down-right
             - 2 frames up-right
             - buffer down-right and hold to jump
 
-            =bumper_clip_6
+            =ow/bumper_clip_6
             After getting super bunny from the item:
             - teleport up and grab the tree for link state
         `,
@@ -880,11 +844,11 @@ POINTS = [
         world: "dark",
         pos: [3871, 2403],
         text: `
-            =skydive_1
+            =ow/skydive_1
             - hera wrap and jump down to the warp, without fixing camera
             - superspeed clip or buffer left through the corner
 
-            =skydive_2
+            =ow/skydive_2
             - get into this corner
 
             To reach Swamp:
@@ -906,12 +870,12 @@ POINTS = [
         world: "dark",
         pos: [4339, 2435],
         text: `
-            =dark_dmd_1
+            =ow/dark_dmd_1
             - clip through left corner
             - dash-turn up and bonk
             - transition down
 
-            =dark_dmd_2
+            =ow/dark_dmd_2
             As a bunny:
             - tap left against the wall to snap here
             - buffer 5 frames up-left
@@ -927,12 +891,12 @@ POINTS = [
         world: "dark",
         pos: [5645, 3468],
         text: `
-            =portal_offset_dmd_1
+            =ow/portal_offset_dmd_1
             - hera wrap and jump down to the warp, without fixing camera
             - walk down a tile and mirror
             - jump down and enter rear of old man's home to fix camera
 
-            =portal_offset_dmd_2
+            =ow/portal_offset_dmd_2
             - without spinspeed, buffer into the corner and dash-turn down
             - with spinspeed, pump through the corner
             - hold up while falling to autowalk
@@ -945,13 +909,13 @@ POINTS = [
         world: "dark",
         pos: [5694, 2355],
         text: `
-            =gt_clip_1
+            =ow/gt_clip_1
             - line up with the horizontal cliff
             - buffer or hookspeed left into the wall
             - buffer down-right to jump
             - tap right, then hold up
 
-            =gt_clip_2
+            =ow/gt_clip_2
             As a bunny:
             - tap left against the wall to snap here
             - buffer 5 frames up-left
@@ -968,11 +932,11 @@ POINTS = [
         world: "dark",
         pos: [6274, 1968],
         text: `
-            =east_dm_wrap_1
+            =ow/east_dm_wrap_1
             - mirror wrap
             - transition right
 
-            =east_dm_wrap_2
+            =ow/east_dm_wrap_2
             - land here after auto-walking, but with broken camera
         `,
     },
@@ -983,11 +947,11 @@ POINTS = [
         type: "muted",
         pos: [6274, 2226],
         text: `
-            =hookshot_cave_wrap_1
+            =ow/hookshot_cave_wrap_1
             - line up here or 1 pixel to the right
             - mirror wrap, then transition right
 
-            =hookshot_cave_wrap_2
+            =ow/hookshot_cave_wrap_2
             - wait for the transition to finish
             - hold right to snap into this position, but stop before jumping right
             - jump down
@@ -1002,28 +966,28 @@ POINTS = [
         type: "muted",
         pos: [6645, 1839],
         text: `
-            =dm_mirror_clip_1
+            =ow/dm_mirror_clip_1
             - stand against the wall and mirror
 
-            =dm_mirror_clip_2
+            =ow/dm_mirror_clip_2
             - move 1 pixel right, and re-enter portal
 
-            =dm_mirror_clip_3
+            =ow/dm_mirror_clip_3
             - mirror, align with the fence, and wait to stop flashing
             - walk left into the portal without stopping
             - hold right to jump
 
-            =dm_mirror_clip_4
+            =ow/dm_mirror_clip_4
             To reach west dark world:
             - transition down here
 
-            =dm_mirror_clip_5
+            =ow/dm_mirror_clip_5
             To reach east dark world (requires moon pearl):
             - transition down here
             - jump left to reset camera
             - jump right and fake flipper
 
-            =dm_mirror_clip_6
+            =ow/dm_mirror_clip_6
             To reach east DM:
             - mirror and line up here
             - wait to warp back
@@ -1036,8 +1000,8 @@ POINTS = [
         world: "dark",
         pos: [5435, 710],
         text: `
-            =dark_dm_bomb_clip_1
-            =dark_dm_bomb_clip_2
+            =ow/dark_dm_bomb_clip_1
+            =ow/dark_dm_bomb_clip_2
             - move left to the wall and place bomb
             - dash into the bomb as it explodes
             - dash
@@ -1050,7 +1014,7 @@ POINTS = [
         world: "dark",
         pos: [6016, 871],
         text: `
-            =dark_dm_land_bridge_teleport
+            =ow/dark_dm_land_bridge_teleport
             - teleport down
             - tap down, tap left, half circle left, repeat until free
             - jump right and transition
@@ -1063,7 +1027,7 @@ POINTS = [
         type: "muted",
         pos: [7371, 710],
         text: `
-            =dark_dm_land_bridge_return
+            =ow/dark_dm_land_bridge_return
             - clip left through the corner
             - stay high for transition
         `,
@@ -1074,7 +1038,7 @@ POINTS = [
         world: "dark",
         pos: [7774, 742],
         text: `
-            =tr_middle
+            =ow/tr_middle
             With superspeed:
             - clip right through the corner
 
@@ -1089,7 +1053,7 @@ POINTS = [
         world: "dark",
         pos: [6323, 565],
         text: `
-            =laser_bridge_mirrorless
+            =ow/laser_bridge_mirrorless
             - superspeed clip or buffer left through the corner
             - dash turn right
             - buffer hold down-right to jump
@@ -1105,7 +1069,7 @@ POINTS = [
         world: "dark",
         pos: [6306, 1000],
         text: `
-            =laser_bridge_mirror
+            =ow/laser_bridge_mirror
             - teleport down
             - tap down, left
             - half circle left
@@ -1125,7 +1089,7 @@ POINTS = [
         world: "dark",
         pos: [9226, 435],
         text: `
-            =dark_tr_teleport
+            =ow/dark_tr_teleport
             - teleport down
         `,
     },
@@ -1135,7 +1099,7 @@ POINTS = [
         world: "dark",
         pos: [9548, 1065],
         text: `
-            =catfish_dmd
+            =ow/catfish_dmd
             - superspeed clip or buffer left through the corner
             - hold right
         `,
@@ -1146,7 +1110,7 @@ POINTS = [
         world: "dark",
         pos: [9839, 790],
         text: `
-            =tr_skull_wrap
+            =ow/tr_skull_wrap
             - align under the rocks
             - buffer into the wall part way
             - dash down and hold left while falling to transition
@@ -1159,7 +1123,7 @@ POINTS = [
         world: "dark",
         pos: [8274, 2177],
         text: `
-            =hookshot_cave_clip
+            =ow/hookshot_cave_clip
             - go to the teleport spot or slightly above
             - buffer into the wall until you jump
             - dash down twice
@@ -1172,7 +1136,7 @@ POINTS = [
         world: "dark",
         pos: [8129, 3532],
         text: `
-            =dark_witch_to_pod_east
+            =ow/dark_witch_to_pod_east
             - teleport down to jump
             - tap left, up
             - transition down to the left
@@ -1185,7 +1149,7 @@ POINTS = [
         world: "dark",
         pos: [8581, 3484],
         text: `
-            =dark_witch_to_catfish
+            =ow/dark_witch_to_catfish
             - teleport up to jump
             - transition right
         `,
@@ -1196,7 +1160,7 @@ POINTS = [
         world: "dark",
         pos: [9194, 2984],
         text: `
-            =catfish_to_dark_witch
+            =ow/catfish_to_dark_witch
             - teleport down to jump
             - transition left
         `,
@@ -1207,7 +1171,7 @@ POINTS = [
         world: "dark",
         pos: [9177, 3597],
         text: `
-            =catfish_to_pod
+            =ow/catfish_to_pod
             - teleport down
         `,
     },
@@ -1218,15 +1182,15 @@ POINTS = [
         type: "muted",
         pos: [8790, 3177],
         text: `
-            =catfish_dma_1
+            =ow/catfish_dma_1
             - line up in this corner of the cliff, then transition right
             - dash turn down to jump
 
-            =catfish_dma_2
+            =ow/catfish_dma_2
             - walk up to here and jump left
             - dash up
 
-            =catfish_dma_3
+            =ow/catfish_dma_3
             - wiggle left and right until the screen is here
             - transition down
 
@@ -1250,15 +1214,15 @@ POINTS = [
         world: "dark",
         pos: [4677, 4855],
         text: `
-            =pyramid_fairy_1
+            =ow/pyramid_fairy_1
             - hera wrap and jump down to the portal
             - climb down the mountain
 
-            =pyramid_fairy_2
+            =ow/pyramid_fairy_2
             - stand here and mirror
             - die or flute away
 
-            =pyramid_fairy_3
+            =ow/pyramid_fairy_3
             - walk up into the portal
         `,
     },
@@ -1268,12 +1232,12 @@ POINTS = [
         world: "dark",
         pos: [9581, 6419],
         text: `
-            =owg_kiki_skip_1
+            =ow/owg_kiki_skip_1
             - Line up here or 1-2 pixels higer
             - Mirror and transition up
             - Do Eastern Teleport
 
-            =owg_kiki_skip_2
+            =ow/owg_kiki_skip_2
             - Use a bomb to walk past the portal to this point
             - Throw bomb and walk down into the portal
             - Hold down to enter PoD
@@ -1285,11 +1249,11 @@ POINTS = [
         world: "dark",
         pos: [9339, 7306],
         text: `
-            =pod_to_icerod_1
+            =ow/pod_to_icerod_1
             - teleport down and hold down-right to jump
             - tap up then left
 
-            =pod_to_icerod_2
+            =ow/pod_to_icerod_2
             - teleport down to transition
         `,
     },
@@ -1299,7 +1263,7 @@ POINTS = [
         world: "dark",
         pos: [6419, 5565],
         text: `
-            =moat_clip_north
+            =ow/moat_clip_north
             - superspeed clip or buffer left into the corner
         `,
     },
@@ -1309,7 +1273,7 @@ POINTS = [
         world: "dark",
         pos: [6565, 6742],
         text: `
-            =moat_clip_south
+            =ow/moat_clip_south
             - superspeed clip or buffer left into the corner
         `,
     },
@@ -1319,7 +1283,7 @@ POINTS = [
         world: "dark",
         pos: [5984, 6839],
         text: `
-            =dark_river_fawt
+            =ow/dark_river_fawt
             - line up on top of the bush
             - buffer into the wall about this far
             - dash to jump
@@ -1335,7 +1299,7 @@ POINTS = [
         world: "dark",
         pos: [6210, 7065],
         text: `
-            =moat_to_hype_cave
+            =ow/moat_to_hype_cave
             - swim left into the transition
             - hold up-right while transitioning to snap in bounds
 
@@ -1350,7 +1314,7 @@ POINTS = [
         world: "dark",
         pos: [3742, 5855],
         text: `
-            =moat_to_pegs
+            =ow/moat_to_pegs
             - swim left into the transition
             - hold up-left while transitioning to jump in bounds
         `,
@@ -1361,10 +1325,10 @@ POINTS = [
         world: "dark",
         pos: [2581, 5629],
         text: `
-            =pegs_clip_1
+            =ow/pegs_clip_1
             - align here
 
-            =pegs_clip_2
+            =ow/pegs_clip_2
             - buffer this far into the wall
             - dash to jump, and hold right to fake flipper
             - after autoswimming, hold up to jump out of water
@@ -1377,12 +1341,12 @@ POINTS = [
         world: "dark",
         pos: [242, 6081],
         text: `
-            =voo_to_mire_1
+            =ow/voo_to_mire_1
             - teleport down to jump
             - tap right
             - move up left slightly then transition down
 
-            =voo_to_mire_2
+            =ow/voo_to_mire_2
             - carefully walk this far left
             - slow hop down twice
         `,
@@ -1393,16 +1357,16 @@ POINTS = [
         world: "dark",
         pos: [210, 7306],
         text: `
-            =digging_to_mire
+            =ow/digging_to_mire
             To reach Mire:
             - teleport down to jump
 
-            =digging_to_voo_1
+            =ow/digging_to_voo_1
             To reach Village of Outcasts:
             - teleport up
             - release down-left to avoid jumping
 
-            =digging_to_voo_2
+            =ow/digging_to_voo_2
             - teleport up
         `,
     },
@@ -1412,19 +1376,19 @@ POINTS = [
         world: "dark",
         pos: [1113, 7419],
         text: `
-            =bunny_mire_1
+            =ow/bunny_mire_1
             - mirror wrap right
             - transition left
             - hold left until jump
             - tap up
             - transition down near the seam
 
-            =bunny_mire_2
+            =ow/bunny_mire_2
             - hold down until jump
             - hold right until jump
             - hold down-left until stuck and mirror
 
-            =bunny_mire_3
+            =ow/bunny_mire_3
             - enter desert here
         `,
     },
@@ -1434,11 +1398,11 @@ POINTS = [
         world: "dark",
         pos: [1452, 6629],
         text: `
-            =smith_yba_1
+            =ow/smith_yba_1
             - red or green YBA down
             - hop up twice and walk to smith
 
-            =smith_yba_2
+            =ow/smith_yba_2
             To reach Kakariko:
             - walk right to around here
             - mirror and dash up
@@ -1450,16 +1414,16 @@ POINTS = [
         world: "dark",
         pos: [3081, 6823],
         text: `
-            =stumpy_wrap_1
+            =ow/stumpy_wrap_1
             - mirror wrap left
             - transition right
 
-            =stumpy_wrap_2
+            =ow/stumpy_wrap_2
             - walk up-left to here
             - walk left until blocked
             - wiggle left and right until the seam is visible
 
-            =stumpy_wrap_3
+            =ow/stumpy_wrap_3
             - walk right to here and talk to stumpy
 
             To get link state:
@@ -1474,7 +1438,7 @@ POINTS = [
         world: "dark",
         pos: [1968, 7387],
         text: `
-            =arrow_game_to_mire
+            =ow/arrow_game_to_mire
             - teleport down to jump
         `,
     },
@@ -1484,7 +1448,7 @@ POINTS = [
         world: "dark",
         pos: [2694, 7919],
         text: `
-            =grove_to_mire
+            =ow/grove_to_mire
             - teleport down to jump
         `,
     },
@@ -1494,8 +1458,8 @@ POINTS = [
         world: "dark",
         pos: [4274, 8113],
         text: `
-            =swamp_cliff_dw_1
-            =swamp_cliff_dw_2
+            =ow/swamp_cliff_dw_1
+            =ow/swamp_cliff_dw_2
             - superspeed clip or buffer into the corners
             - with superspeed, align bottom of shadow with the seam
         `,
@@ -1506,7 +1470,7 @@ POINTS = [
         world: "dark",
         pos: [4435, 7758],
         text: `
-            =swamp_portal_clip
+            =ow/swamp_portal_clip
             - align here or 1 pixel lower
             - place a bomb
             - align above the top statue
@@ -1520,17 +1484,17 @@ POINTS = [
         world: "dark",
         pos: [6000, 8274],
         text: `
-            =ice_flippers_wrap_1
+            =ow/ice_flippers_wrap_1
             Step 1:
             - teleport down onto the cliff
 
-            =ice_flippers_wrap_2
+            =ow/ice_flippers_wrap_2
             Step 2:
             - buffer into the bump to jump
             - tap up
             - dash down to jump
 
-            =ice_flippers_wrap_3
+            =ow/ice_flippers_wrap_3
             Step 3:
             - swim right 2 tiles onto land
             - walk down 1 tile
@@ -1539,10 +1503,10 @@ POINTS = [
             - swim and walk down until stopped
             - tap right to transition
 
-            =ice_flippers_wrap_4
+            =ow/ice_flippers_wrap_4
             - walk down to transition
 
-            =ice_flippers_wrap_5
+            =ow/ice_flippers_wrap_5
             - enter ice palace
         `,
     },
@@ -1552,7 +1516,7 @@ POINTS = [
         world: "dark",
         pos: [5903, 8855],
         text: `
-            =ice_entry_cliffs_west_1
+            =ow/ice_entry_cliffs_west_1
             - buffer into the corner to jump
             - jump right
             - walk down a few tiles and transition right
@@ -1564,8 +1528,8 @@ POINTS = [
         world: "dark",
         pos: [6629, 8774],
         text: `
-            =ice_entry_cliffs_east_1
-            =ice_entry_cliffs_east_2
+            =ow/ice_entry_cliffs_east_1
+            =ow/ice_entry_cliffs_east_2
             - teleport down
             - tap right
             - teleport down
@@ -1577,15 +1541,15 @@ POINTS = [
         world: "dark",
         pos: [6258, 9100],
         text: `
-            =ice_mirror_wrap_1
+            =ow/ice_mirror_wrap_1
             - mirror wrap left
 
-            =ice_mirror_wrap_2
+            =ow/ice_mirror_wrap_2
             - move up until hand is past the bottom of this circle in the grass
             - transition right
             - tap right, down
 
-            =ice_mirror_wrap_3
+            =ow/ice_mirror_wrap_3
             - enter ice palace
         `,
     },
@@ -1595,13 +1559,13 @@ POINTS = [
         world: "dark",
         pos: [6258, 8840],
         text: `
-            =ice_yba_1
+            =ow/ice_yba_1
             - buffer into the bump at the teleport posistion to jump
             - dash-turn down
             - red or green YBA down
             - tap right
 
-            =ice_yba_2
+            =ow/ice_yba_2
             - enter ice palace
         `,
     },
@@ -1611,7 +1575,7 @@ POINTS = [
         world: "dark",
         pos: [1081, 7984],
         text: `
-            =desert_right_clip
+            =ow/desert_right_clip
             - face left and move up into the door until stopped
             - mirror
             - tap left
@@ -1624,14 +1588,14 @@ POINTS = [
         world: "dark",
         pos: [1661, 7855],
         text: `
-            =mire_exit_1
+            =ow/mire_exit_1
             - teleport down to jump
 
-            =mire_exit_2
+            =ow/mire_exit_2
             To reach arrow game:
             - transition up here
 
-            =mire_exit_3
+            =ow/mire_exit_3
             To reach south of grove:
             - dash right here
         `,
@@ -1642,7 +1606,7 @@ POINTS = [
         world: "dark",
         pos: [2097, 8871],
         text: `
-            =mire_to_swamp
+            =ow/mire_to_swamp
             - teleport down to jump
         `,
     },
@@ -1652,10 +1616,58 @@ POINTS = [
         world: "dark",
         pos: [2597, 9790],
         text: `
-            =swamp_to_mire
+            =ow/swamp_to_mire
             - teleport down to jump
             - tap up
             - after transition, move down first
         `,
+    },
+
+    // Underworld Glitches
+
+    {
+        title: "Kiki Skip",
+        world: "light",
+        type: "indoor",
+        pos: [4548, 1371],
+        text: `
+            =uw/kiki_skip
+            - stand 1-3 pixels above this rock and roughly centered on it
+            - face right and drop a bomb
+            - align with the bottom wall and dash right into the bomb as it explodes
+            - hold up-left
+        `,
+    },
+
+    {
+        title: "Ice Palace",
+        world: "dark",
+        type: "indoor",
+        pos: [7968, 8613],
+        parts: [
+            {
+                title: "Entrance clip",
+                text: `
+                    =uw/ice_entrance_clip
+                    - stand here or 1 pixel right
+                    - dash turn down to bonk
+                    - dash turn right
+                    - throw a bomb
+                    - align with the bottom wall and dash into the bomb as it explodes
+                    - hold up-left to transition
+                    - switch to holding down during the transition
+                `,
+            },
+
+            {
+                title: "Kholdstare YBA",
+                text: `
+                    - go to room above Kholdstare
+                    - bomb snap into the door
+                    - red/blue spin YBA
+                    - if blue, tap left then right to fall in
+                `,
+            },
+        ],
     },
 ];
