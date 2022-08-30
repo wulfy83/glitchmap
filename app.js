@@ -23,16 +23,30 @@ function log_coordinates(coordinates) {
     console.log("[" + coordinates[0] + ", " + coordinates[1] + "]");
 }
 
-function open_info_box(point) {
+function create_element(html) {
+    const template = document.createElement('template');
+    template.innerHTML = html.trim();
+    return template.content.firstChild;
+}
+
+function open_info_box(point, parent_point) {
     close_info_box();
-    const parent = (point.world === "light") ? dark_map : light_map;
+    const map = (point.world === "light") ? dark_map : light_map;
     const info_box = document.createElement("div");
     info_box.id = "info-box";
     info_box.onclick = function (event) {
         event.stopPropagation();
     };
-    info_box.innerHTML = format_point_text(point);
-    parent.appendChild(info_box);
+
+    append_parent_link(info_box, parent_point);
+    append_title(info_box, point);
+    if (point.parts) {
+        append_parts(info_box, point);
+    } else {
+        append_text(info_box, point);
+    }
+
+    map.appendChild(info_box);
 }
 
 function close_info_box() {
@@ -42,12 +56,54 @@ function close_info_box() {
     }
 }
 
-function format_point_text(point) {
-    const title = `<div class="info-box-title">${point.title}</div>`;
+function append_parent_link(info_box, parent_point) {
+    const link = create_element(`<div class="info-box-back">🡨 Back</div>`);
+    link.onclick = function() {
+        if (parent_point) {
+            open_info_box(parent_point);
+        } else {
+            close_info_box();
+        }
+    };
+    info_box.append(link);
+}
+
+function append_close_link(info_box) {
+    const link = create_element(`<div class="info-box-back">🡨 Back</div>`);
+    link.onclick = function() {
+        open_info_box(parent_point);
+    };
+    info_box.append(link);
+}
+
+function append_title(info_box, point) {
+    const title = create_element(`<div class="info-box-title">${point.title}</div>`);
+    info_box.appendChild(title);
+}
+
+
+function append_parts(info_box, point) {
+    const div = create_element(`<div class="info-box-parts-list"></div>`);
+    for (const part of point.parts) {
+        const row = create_element(`<div class="info-box-part">${part.title}</div>`);
+        row.onclick = function () {
+            const new_point = {
+                world: point.world,
+                ...part,
+            };
+            open_info_box(new_point, point);
+        };
+        div.appendChild(row);
+    }
+    info_box.appendChild(div);
+}
+
+function append_text(info_box, point) {
     const text = point.text.trim()
         .replace(/(\r\n|\r|\n)/g, '<br>')
-        .replace(/(=([A-Za-z0-9_]+))/g, (str, g1, g2) => `<img class="screenshot" src="screenshots/${g2}.png">`);
-    return title + text;
+        .replace(/(=([A-Za-z0-9_/]+))/g, (str, g1, g2) => `<img class="screenshot" src="screenshots/${g2}.png">`);
+    const div = create_element(`<div>${text}</div>`);
+    info_box.appendChild(div);
 }
 
 function init_world(world) {

@@ -59,6 +59,23 @@ body {
     margin-bottom: 8px;
 }
 
+.info-box-back {
+    display: inline-block;
+    position: absolute;
+    border: 1px solid white;
+    padding: 2px 5px 2px;
+}
+
+.info-box-part {
+    font-size: 20px;
+    text-decoration: underline;
+    margin-bottom: 12px;
+}
+
+.info-box-parts-list {
+    margin-top: 32px;
+}
+
 .screenshot {
     width: 512px;
     image-rendering: crisp-edges;
